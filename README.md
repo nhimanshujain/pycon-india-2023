@@ -4,5 +4,7 @@
 Case Study Commands:
 ```
 ./case_study n no_of_iter
-Ex: ./case_study.sh 2048 1000
+
+./case_study.sh 2048 1000
+nohup ./case_study.sh 1024 10 &
 ```

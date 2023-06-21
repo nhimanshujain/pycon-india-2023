@@ -1,7 +1,7 @@
 N=$1
 NO_OF_ITER=$2
 
-gcc case_study/MatrixMultiplication.c -o MatrixMultiplication
+gcc -O3 case_study/MatrixMultiplication.c -o MatrixMultiplication
 ./MatrixMultiplication ${N} ${NO_OF_ITER} > case_study/results/c.txt
 
 javac case_study/MatrixMultiplication.java 
